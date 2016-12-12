@@ -1,0 +1,77 @@
+/* Background & Universal text Styling */
+body {
+    background-image: url(https://i.imgur.com/mXYtxBD.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+    color: #fff;
+    font-size: 14.20px;
+}
+
+/* Links same color as text - white */
+a {
+    color:#fff;
+}
+
+#mal_control_strip {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+/* List Area */
+#list_surround {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    width:1000px;
+    background: rgba(0, 0, 0, 0.9);
+    border: 10px solid transparent;
+}
+
+/* Header Styling */
+.header_title
+{
+    font-weight: bold;
+    padding: 3px;
+    text-align:center;
+    font-size: 20px;
+    background-image:url(http://i.imgur.com/XUahSne.png);
+    background-size:100% 100%;
+}
+
+/* cell Styling */
+.td1, .td2, .table_header {padding: 2px 3px;}
+
+/* Total amount Area */
+#total_amount
+{
+    text-align:center;
+    font-size:12px;
+}
+
+/*Total amount Header*/
+#total_amount:before
+{
+    content:"Total amount \a ";
+    white-space: pre;
+    font-weight: bold;
+    padding: 3px;
+    text-align:center;
+    font-size: 18px;
+}
+
+/* Copyright Info */
+#copyright
+{
+    font-size:12px;
+}
+
+/* Style Credits */
+#copyright:before
+{
+    content:"<p style="color:#f00">CSS Style created by Sphexator</p> \a";
+    color: #00e5ff;
+    white-space: pre;
+}
